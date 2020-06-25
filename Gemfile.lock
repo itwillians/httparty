@@ -83,7 +83,7 @@ GEM
       pdf-core (~> 0.7.0)
       ttfunk (~> 1.5)
     public_suffix (3.0.2)
-    rack (2.0.5)
+    rack (2.2.3)
     rack-test (1.0.0)
       rack (>= 1.0, < 3)
     rainbow (3.0.0)
@@ -133,17 +133,17 @@ DEPENDENCIES
   bundler
   capybara
   chromedriver-helper
-  chromedriver-installer (~> 0.0.6)
+  chromedriver-installer
   cpf_faker
   cucumber
   cucumber_analytics
   date_format
-  faker (~> 1.6, >= 1.6.6)
+  faker
   ffi
   geckodriver-helper
-  httparty (~> 0.13.7)
+  httparty
   poltergeist
-  prawn (~> 2.1)
+  prawn
   rake
   rspec
   rubocop
